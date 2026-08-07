@@ -2,7 +2,7 @@ using {CapAssesment.db as Cap} from '../db/schema';
 
 service MyService {
 
-    @Capabilities : { Insertable : true, Readable : false }
+    @Capabilities : { Insertable : true, Readable : true }
     entity TravelService       as projection on Cap.MasterData.Travel;
     entity CustomerService     as projection on Cap.MasterData.Customer;
     entity AgencyService       as projection on Cap.MasterData.Agency;

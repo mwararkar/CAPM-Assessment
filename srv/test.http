@@ -1,8 +1,23 @@
+####
+GET http://localhost:4004/odata/v4/my/TravelService(6793)
+
+####
 POST http://localhost:4004/odata/v4/my/TravelService
 Content-Type: application/json
 
 {
-  
+      "AgencyID": "70004",
+      "BeginDate": "2027-03-11",
+      "BookingFee": "20.00",
+      "CurrencyCode_code": "USD",
+      "CustomerID": "566",
+      "Description": "Vacation",
+      "EndDate": "2027-03-11",
+      "LastChangedAt": "2026-07-15T04:38:48Z",
+      "Status": "N",
+      "TotalPrice": "3965.50",
+      "TravelID": "6793"
 
 }
+
 
